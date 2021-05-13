@@ -1,8 +1,9 @@
 package bowling;
 
 import bowling.domain.player.Player;
-import bowling.view.InputView;
-import bowling.view.ResultView;
+import bowling.domain.Frames;
+import bowling.domain.Player;
+import bowling.domain.state.PinCount;
 
 public final class Bowling {
 
@@ -41,4 +42,5 @@ public final class Bowling {
             return getPlayer();
         }
     }
+
 }

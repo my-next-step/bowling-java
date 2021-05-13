@@ -23,10 +23,9 @@ public final class InputView {
         System.out.println(INPUT_PLAYER_NAME_MESSAGE);
         return SCANNER.nextLine();
     }
-
+ 
     public final int InputFallCountByConsole(final int sequence) {
         System.out.println(String.format(INPUT_HIT_COUNT_MESSAGE, sequence));
-        return valueOf(SCANNER.nextLine());
     }
 
 }
