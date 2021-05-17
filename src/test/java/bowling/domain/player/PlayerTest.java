@@ -142,7 +142,7 @@ class PlayerTest {
         );
 
     }
-
+  
     @DisplayName("Player 인스턴스가 현재 프레임을 반환하는지 테스트")
     @Test
     void 반환_current() {

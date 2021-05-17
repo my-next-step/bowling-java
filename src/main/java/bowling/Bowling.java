@@ -33,6 +33,7 @@ public final class Bowling {
             System.out.println(e.getMessage());
             return getPlayers(playerCount);
         }
+        RESULT_VIEW.printResult(player);
     }
 
     private static final PlayerCount getPlayerCount() {
